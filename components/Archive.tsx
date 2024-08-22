@@ -28,7 +28,7 @@ const Archive = () => {
           des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
           listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.noormohmmad.com/"
+          link="https://www.nope.com/"
         />
         <ArchiveCard
           title="ReactBD web development company"
@@ -80,11 +80,11 @@ const Archive = () => {
               transition={{ delay: 0.2 }}
             >
               <ArchiveCard
-                title="Noor Online Shopping Store"
+                title="Online Shopping Store"
                 des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
             laudantium velit qui sint non, voluptates quo a veritatis."
                 listItem={["Reactjs", "Tailwind CSS", "redux-toolkit"]}
-                link="https://noorshop.netlify.app/"
+                link="https://shop.netlify.app/"
               />
             </motion.div>
             <motion.div

@@ -8,9 +8,23 @@
   }
 }
 
+
 .scrollbarHide::-webkit-scrollbar {
   display: none;
 }
 .active {
   color: #64ffda;
+}
+
+.square {
+  border: 1px solid red;
+  height: 42px;
+  width: 42px;
+  transform: rotate(45deg);
+}
+
+.square p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  transform: rotate(-45deg);
 }

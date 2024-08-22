@@ -1,7 +1,7 @@
 import logo from "./images/logo.png";
 import pujaSharmaProfile from "./images/puja-sharma-profile.jpg";
-import amazonImg from "./images/amazonImg.png";
-import cyberImg from "./images/cyberBlog.png";
-import noorShop from "./images/noorShop.png";
+import quizAppImage from "./images/quiz-app.png";
+import discurdProjectImage from "./images/discurd-project.png";
+import movieScrollImage from "./images/movie-scroll.png";
 
-export { logo, pujaSharmaProfile, amazonImg, cyberImg, noorShop };
+export { logo, pujaSharmaProfile, discurdProjectImage, movieScrollImage, quizAppImage };
