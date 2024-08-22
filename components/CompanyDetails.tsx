@@ -19,7 +19,7 @@ const CompanyDetails = ({ companyName, points, role, duration }: IProps) => {
         >
             <h3 className="flex gap-1 font-medium text-xl font-titleFont">
                 { role }
-                <span className="text-textGreen tracking-wide">@{ companyName }</span>
+                <span className="text-primaryColor tracking-wide">@{ companyName }</span>
             </h3>
             <p className="text-sm mt-1 font-medium text-textDark">
                 { duration }
@@ -28,7 +28,7 @@ const CompanyDetails = ({ companyName, points, role, duration }: IProps) => {
                 {
                     points.map((item) => (
                         <li className="text-base flex gap-2 text-textDark">
-                              <span className="text-textGreen mt-1">
+                              <span className="text-primaryColor mt-1">
                                 <TiArrowForward/>
                               </span>
                             { item }

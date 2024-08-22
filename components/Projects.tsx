@@ -48,7 +48,7 @@ const Projects = () => {
             return (
                 <Fragment key={ i }>
                     { isSkill ? (
-                        <span className="text-textGreen">{ part } </span>
+                        <span className="text-primaryColor">{ part } </span>
                     ) : (
                         <span>{ part } </span>
                     ) }
@@ -88,13 +88,13 @@ const Projects = () => {
                                             alt="discurd project screenshot"
                                         />
                                         <div
-                                            className="absolute w-full h-full bg-textGreen/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
+                                            className="absolute w-full h-full bg-primaryColor/10 rounded-lg top-0 left-0 group-hover:bg-transparent duration-300"></div>
                                     </div>
                                 </a>
                                 <div
                                     className={ `w-full xl:w-1/2 flex flex-col gap-6  items-end text-right  z-10 ${ index % 2 === 0 ? `lgl:justify-between xl:-ml-16` : `justify-between` }` }>
                                     <div>
-                                        <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                                        <p className="font-titleFont text-primaryColor text-sm tracking-wide">
                                             Featured Project
                                         </p>
                                         <h3 className="text-2xl font-bold">{ name }</h3>
@@ -107,14 +107,14 @@ const Projects = () => {
                                     </ul>
                                     <div className="text-2xl flex gap-4">
                                         <a
-                                            className="hover:text-textGreen duration-300"
+                                            className="hover:text-primaryColor duration-300"
                                             href={ githubLink }
                                             target="_blank"
                                         >
                                             <TbBrandGithub/>
                                         </a>
                                         <a
-                                            className="hover:text-textGreen duration-300"
+                                            className="hover:text-primaryColor duration-300"
                                             href={ liveLink }
                                             target="_blank"
                                         >

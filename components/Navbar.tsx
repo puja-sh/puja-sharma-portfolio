@@ -18,7 +18,7 @@ const Navbar = () => {
     };
 
     return (
-        <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
+        <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-backgroundColor px-4">
             <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between ">
                 <Link href="/">
                     <motion.div
@@ -27,15 +27,15 @@ const Navbar = () => {
                         transition={ { duration: 0.1 } }
                     >
                         {/*<Image className="w-14" src={logo} alt="logo" />*/ }
-                        <div className="square text-textGreen flex items-center justify-center">
-                            <p className="text-textGreen">P</p>
+                        <div className="square text-primaryColor flex items-center justify-center">
+                            <p className="text-primaryColor">P</p>
                         </div>
                     </motion.div>
                 </Link>
                 <div className="hidden mdl:inline-flex items-center gap-7">
                     <ul className="flex text-[13px] gap-7">
                         <Link
-                            className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+                            className="flex items-center gap-1 font-medium text-textDark hover:text-primaryColor cursor-pointer duration-300 nav-link"
                             href="#home"
                             onClick={ handleScroll }
                         >
@@ -49,7 +49,7 @@ const Navbar = () => {
                         </Link>
 
                         <Link
-                            className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+                            className="flex items-center gap-1 font-medium text-textDark hover:text-primaryColor cursor-pointer duration-300 nav-link"
                             href="#about"
                             onClick={ handleScroll }
                         >
@@ -58,12 +58,12 @@ const Navbar = () => {
                                 animate={ { y: 0, opacity: 1 } }
                                 transition={ { duration: 0.1, delay: 0.1 } }
                             >
-                                <span className="text-textGreen">01.</span>
+                                <span className="text-primaryColor">01.</span>
                                 About
                             </motion.li>
                         </Link>
                         <Link
-                            className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+                            className="flex items-center gap-1 font-medium text-textDark hover:text-primaryColor cursor-pointer duration-300 nav-link"
                             href="#experience"
                             onClick={ handleScroll }
                         >
@@ -72,12 +72,12 @@ const Navbar = () => {
                                 animate={ { y: 0, opacity: 1 } }
                                 transition={ { duration: 0.1, delay: 0.2 } }
                             >
-                                <span className="text-textGreen">02.</span>
+                                <span className="text-primaryColor">02.</span>
                                 Experience
                             </motion.li>
                         </Link>
                         <Link
-                            className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+                            className="flex items-center gap-1 font-medium text-textDark hover:text-primaryColor cursor-pointer duration-300 nav-link"
                             href="#project"
                             onClick={ handleScroll }
                         >
@@ -86,12 +86,12 @@ const Navbar = () => {
                                 animate={ { y: 0, opacity: 1 } }
                                 transition={ { duration: 0.1, delay: 0.3 } }
                             >
-                                <span className="text-textGreen">03.</span>
+                                <span className="text-primaryColor">03.</span>
                                 Project
                             </motion.li>
                         </Link>
                         <Link
-                            className="flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link"
+                            className="flex items-center gap-1 font-medium text-textDark hover:text-primaryColor cursor-pointer duration-300 nav-link"
                             href="#contact"
                             onClick={ handleScroll }
                         >
@@ -100,7 +100,7 @@ const Navbar = () => {
                                 animate={ { y: 0, opacity: 1 } }
                                 transition={ { duration: 0.1, delay: 0.4 } }
                             >
-                                <span className="text-textGreen">04.</span>
+                                <span className="text-primaryColor">04.</span>
                                 Contact
                             </motion.li>
                         </Link>
@@ -110,7 +110,7 @@ const Navbar = () => {
                             initial={ { opacity: 0 } }
                             animate={ { opacity: 1 } }
                             transition={ { delay: 0.5 } }
-                            className="px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
+                            className="px-4 py-2 rounded-md text-primaryColor text-[13px] border border-primaryColor hover:bg-hoverColor duration-300"
                         >
                             <span className='pr-1'>✽</span> Resume <span className='pl-1'>✽</span>
                         </motion.button>

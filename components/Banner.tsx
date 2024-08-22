@@ -10,7 +10,7 @@ const Banner = () => {
                 initial={ { y: 10, opacity: 0 } }
                 animate={ { y: 0, opacity: 1 } }
                 transition={ { duration: 0.5, delay: 0.6 } }
-                className="text-lg font-titleFont tracking-wide text-textGreen"
+                className="text-lg font-titleFont tracking-wide text-primaryColor"
             >
                 Hi, my name is
             </motion.h3>
@@ -40,7 +40,7 @@ const Banner = () => {
                     initial={ { y: 10, opacity: 0 } }
                     animate={ { y: 0, opacity: 1 } }
                     transition={ { duration: 0.5, delay: 0.9 } }
-                    className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+                    className="w-52 h-14 text-sm font-titleFont border border-primaryColor rounded-md text-primaryColor tracking-wide hover:bg-hoverColor duration-300"
                 >
                     Connect With Me
                 </motion.button>
