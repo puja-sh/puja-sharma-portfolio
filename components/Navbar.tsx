@@ -112,7 +112,7 @@ const Navbar = () => {
                             transition={ { delay: 0.5 } }
                             className="px-4 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
                         >
-                            Resume >
+                            <span className='pr-1'>✽</span> Resume <span className='pl-1'>✽</span>
                         </motion.button>
                     </a>
                 </div>

@@ -18,17 +18,17 @@ const projectData = [
     {
         name: "Movie Bi-directional",
         skills: ["Reactjs", "Typescript", "Styled-component", "JavaScript"],
-        description: "Implemented various features, including file/photo/audio sharing, authentication, upload profile image, and online/offline status of users. Deployed the project using Firebase for optimal performance and accessibility.",
-        highlightTextInDescription: ["online/offline", "authentication,"],
+        description: "A moving listing website with bi-directional smooth scrolling. It fetches movies year by year and includes genre filtration. Data is retrieved with pagination, providing a seamless and interactive user experience.",
+        highlightTextInDescription: ["bi-directional", "smooth", "scrolling.", "filtration."],
         image: movieScrollImage,
         githubLink: "https://github.com/puja-sh/movie-listing",
         liveLink: "https://movies-bidirectional-scroll.surge.sh/"
     },
     {
         name: "Quiz App",
-        skills: ["Reactjs", "SCSS", "JavaScript"],
-        description: "Implemented various features, including file/photo/audio sharing, authentication, upload profile image, and online/offline status of users. Deployed the project using Firebase for optimal performance and accessibility.",
-        highlightTextInDescription: ["online/offline", "authentication,"],
+        skills: ["Reactjs", "React Hooks", "SCSS", "JavaScript"],
+        description: "A quiz application featuring instructions and a 3-minute timer. It includes notification sounds based on whether the answer is correct or incorrect. At the end, the application displays score and feedback for the user.",
+        highlightTextInDescription: ["3-minute", "timer.", "notification", "sounds", "score"],
         image: quizAppImage,
         githubLink: "https://github.com/puja-sh/quiz-reactjs",
         liveLink: "https://quizapp-ps.netlify.app/"

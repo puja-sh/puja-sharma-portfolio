@@ -6,7 +6,7 @@ const experienceData = [
     {
         companyName: 'SkilloVilla',
         role: 'Software Developer',
-        duration: 'Jan 2022 - Dec 2023',
+        duration: 'Jul 2022 - Present',
         points: [
             "Developed an interactive Online Test Taking Platform supporting multiple types of questions (FIB, MCQ, SCQ, etc.) using Next.js, React Query, and styled-components, benefiting over 7000+ students and elevating the overall learning experience.",
             "Built end-to-end responsive dynamic web pages using Strapi Headless CMS and server-side rendering for content management, leading to a 10% increase in sales by enabling seamless website modifications and reducing dependency on developers.",
@@ -20,24 +20,22 @@ const experienceData = [
     {
         companyName: 'SkilloVilla (Intern)',
         role: 'Software Developer',
-        duration: 'Jan 2022 - Dec 2023',
+        duration: 'Dec 2021 - Jun 2022',
         points: [
-            "Developed an interactive Online Test Taking Platform supporting multiple types of questions (FIB, MCQ, SCQ, etc.) using Next.js, React Query, and styled-components, benefiting over 7000+ students and elevating the overall learning experience.",
-            "Built end-to-end responsive dynamic web pages using Strapi Headless CMS and server-side rendering for content management, leading to a 10% increase in sales by enabling seamless website modifications and reducing dependency on developers.",
-            "Created a Programming Learning Platform supporting multiple coding languages, incorporating polling for all test cases evaluation, to facilitate interactive coding practice and enhance learning outcomes.",
-            "Developed an Assignment Evaluation Dashboard 2.0 using Appsmith, JavaScript, Hasura APIs, PostgreSQL and MongoDB, enhancing the efficiency of subject experts in evaluating student assignments and contributing to better placement results.",
-            "Improved overall website performance by 3% through utilising Imgix for image optimization, dynamic import techniques, lazy loading, and optimizing SEO with structured schema leading to enhanced page speed and significant improvements in core web vitals.",
-            "Integrated new Sign In/Sign Up REST APIs that includes segregated OTP generation for SMS & Whatsapp, resulting in a streamlined user experience and reduced OTP delivery errors.",
-            "Conducted comprehensive debugging, thorough code review, end-to-end Testing/QA, and adherence to Agile methodologies to ensure high-quality software development practices and deliverables."
+            "Created a streamlined Discord Onboarding Flow for students, utilizing the Discord OAuth API and Next.js to seamlessly integrate them into their designated Discord batch channels",
+            "Built a Batch Management System with Appsmith, JavaScript and SQL to streamline batch assignments and student tracking",
+            "Developed a suite of dynamic and responsive web pages with React.js and styled-component, contributing to an elevated level of user interactivity.",
+            "Worked on Tinymce integration with Wiris Formula and Prism.js, ensuring effective handling of mathematical expressions and syntax highlighting for an enriched content creation experience.",
         ]
     },
     {
         companyName: 'Recreate AI',
         role: 'Software Developer',
-        duration: 'Jan 2022 - Dec 2023',
+        duration: 'Jan 2021 - Mar 2021',
         points: [
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora distinctio doloribus quas ex ea sed.",
-            "boooooo"
+            "Implemented new features for image manipulation, including applying filters and removing backgrounds, using jQuery, HTML Canvas, and open-source libraries like FabricJS and GreenSockJS.",
+            "Developed a dashboard page for managing users' own projects, enhancing user experience and project organisation.",
+            "Utilized various open-source tools and libraries to enhance the functionality and interactivity of the image manipulation features."
         ]
     }
 ]
