@@ -127,7 +127,7 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          <a href="/assets/noor_resume.pdf" target="_blank">
+          <a href="/assets/puja_sharma_resume.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -236,7 +236,7 @@ const Navbar = () => {
                     </motion.li>
                   </Link>
                 </ul>
-                <a href="/assets/noor_resume.pdf" target="_blank">
+                <a href="/assets/puja_sharma_resume.pdf" target="_blank">
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -312,7 +312,7 @@ const Navbar = () => {
                 className="text-sm w-72 tracking-widest text-textGreen text-center mt-4"
                 href="mailto:noor.jsdivs@gmail.com"
               >
-                <p>reactbd@proton.me</p>
+                <p>pujashm6@gmail.com</p>
               </motion.a>
             </motion.div>
           </div>
